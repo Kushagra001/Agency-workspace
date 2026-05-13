@@ -2,7 +2,6 @@ import { z } from 'zod';
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { createClient } from '@supabase/supabase-js';
-import { createClient } from '@supabase/supabase-js';
 
 const leadMagnetSchema = z.object({
   name: z.string().min(2),
