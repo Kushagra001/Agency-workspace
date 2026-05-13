@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --footer-bg: #0f172a;
+
+  /* Clinical palette - Light */
+  --clinical-blue: #2980b9;
+  --clinical-blue-dark: #1a5276;
+  --clinical-blue-light: #ebf4fb;
+  --clinical-blue-mid: #aed6f1;
+  --clinical-white: #ffffff;
+  --clinical-offwhite: #f8fafc;
+  --clinical-border: #e2e8f0;
+
+  /* Ink palette - Light */
+  --ink: #0f172a;
+  --ink-muted: #475569;
+  --ink-soft: #94a3b8;
+  --ink-faint: #cbd5e1;
+}
+
+.dark {
+  --background: #0f172a;
+  --foreground: #f8fafc;
+  --footer-bg: #020617;
+
+  /* Clinical palette - Dark */
+  --clinical-blue: #3498db;
+  --clinical-blue-dark: #2980b9;
+  --clinical-blue-light: #1e293b;
+  --clinical-blue-mid: #334155;
+  --clinical-white: #0f172a;
+  --clinical-offwhite: #020617;
+  --clinical-border: #334155;
+
+  /* Ink palette - Dark */
+  --ink: #f8fafc;
+  --ink-muted: #cbd5e1;
+  --ink-soft: #64748b;
+  --ink-faint: #334155;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-footer-bg: var(--footer-bg);
+  --font-sans: var(--font-inter);
+  
+  --color-clinical-blue: var(--clinical-blue);
+  --color-clinical-blue-dark: var(--clinical-blue-dark);
+  --color-clinical-blue-light: var(--clinical-blue-light);
+  --color-clinical-blue-mid: var(--clinical-blue-mid);
+  --color-clinical-white: var(--clinical-white);
+  --color-clinical-offwhite: var(--clinical-offwhite);
+  --color-clinical-border: var(--clinical-border);
+  
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+}
+
+/* Global focus state for P2 polish */
+*:focus-visible {
+  outline: 2px solid var(--clinical-blue);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}

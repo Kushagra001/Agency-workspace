@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-axiom-bg: #faf7f2;
+  --color-axiom-surface: #ffffff;
+  --color-axiom-gold: #b8922a;
+  --color-axiom-gold-light: #f5e9cc;
+  --color-axiom-gold-dark: #8a6d1e;
+  --color-axiom-charcoal: #1c1a17;
+  --color-axiom-charcoal-2: #3d3a35;
+  --color-axiom-muted: #7a766e;
+  --color-axiom-border: #e8e2d9;
+  --color-axiom-border-strong: #d4ccc0;
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+}
+
+* {
+  @apply box-border;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #faf7f2;
+  color: #1c1a17;
+  font-family: var(--font-sans, system-ui, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #f5e9cc;
+  color: #1c1a17;
+}

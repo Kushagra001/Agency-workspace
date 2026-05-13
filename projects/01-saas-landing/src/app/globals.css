@@ -1,0 +1,210 @@
+@import "tailwindcss";
+
+/* ─── Design Tokens ─────────────────────────────────── */
+@theme inline {
+  /* Fonts */
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-geist);
+  --font-mono: var(--font-geist-mono);
+
+  /* Brand / accent */
+  --color-brand-primary: #ea580c;
+  --color-brand-hover: #f97316;
+  --color-brand-muted: #fff4e6;
+
+  /* Surfaces */
+  --color-surface-base: #f7f3ee;
+  --color-surface-raised: #ffffff;
+  --color-surface-overlay: #f0ebe4;
+  --color-surface-border: rgba(26, 22, 18, 0.08);
+  --color-surface-muted: #6b6560;
+
+  /* Ink */
+  --color-background: #f7f3ee;
+  --color-foreground: #1a1612;
+
+  /* Aliases used in components */
+  --color-ink: #1a1612;
+  --color-muted: #6b6560;
+  --color-accent: #c0392b;
+  --color-accent-light: #f9ede9;
+}
+
+/* ─── Type scale custom properties ────────────────────── */
+:root {
+  --text-display: clamp(52px, 7vw, 88px);
+  --text-title: clamp(36px, 4.5vw, 56px);
+  --text-xl: clamp(20px, 2.5vw, 28px);
+  --text-base: 16px;
+  --text-sm: 14px;
+  --text-xs: 12px;
+}
+
+/* ─── Base ──────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: var(--text-base);
+  font-weight: 400;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+/* ─── Typography ────────────────────────────────────── */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display), system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+/* ─── Selection ─────────────────────────────────────── */
+::selection {
+  background: #f9ede9;
+  color: var(--color-foreground);
+}
+
+/* ─── Scrollbar ─────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(26, 22, 18, 0.15);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(26, 22, 18, 0.25);
+}
+
+/* ─── Marquee mask ──────────────────────────────────── */
+.marquee-container {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+}
+
+.marquee-track {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+}
+
+/* ─── Section divider ───────────────────────────────── */
+.section-rule {
+  border: none;
+  height: 1px;
+  background: rgba(26, 22, 18, 0.08);
+  transform-origin: left;
+}
+
+/* ─── Nav link underline ────────────────────────────── */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: var(--color-ink);
+  width: 0;
+  transition: width 0.25s ease;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* ─── Keyframes ─────────────────────────────────────── */
+@keyframes ping-slow {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(1.4);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes processBar {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes stroke-draw {
+  from {
+    stroke-dashoffset: 100;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes wave-bar {
+
+  0%,
+  100% {
+    transform: scaleY(0.3);
+  }
+
+  50% {
+    transform: scaleY(1);
+  }
+}

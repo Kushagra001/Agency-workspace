@@ -1,0 +1,4 @@
+{
+  "installCommand": "echo install skipped",
+  "buildCommand": "pnpm build"
+}

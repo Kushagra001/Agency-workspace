@@ -1,0 +1,33 @@
+{
+  "name": "agency-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:01": "pnpm --filter 01-saas-landing dev",
+    "dev:02": "pnpm --filter 02-agency-site dev",
+    "dev:03": "pnpm --filter 03-local-business dev",
+    "dev:04": "pnpm --filter 04-ecommerce dev",
+    "dev:05": "pnpm --filter 05-coach-funnel dev"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "@react-email/components": "^1.0.12",
+    "@react-email/render": "^2.0.8",
+    "@supabase/supabase-js": "^2.105.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.0",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.14",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  }
+}
