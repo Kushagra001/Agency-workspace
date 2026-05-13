@@ -21,7 +21,7 @@ export function Problem() {
 
   useGSAP(
     () => {
-      const triggers: gsap.core.ScrollTrigger[] = [];
+      const triggers: any[] = [];
       gsap.utils.toArray('.pain-item').forEach((item, i) => {
         const scrollTrigger = gsap.from(item as HTMLElement, {
           opacity: 0,
@@ -33,7 +33,7 @@ export function Problem() {
             start: 'top 80%',
             once: true,
           },
-        }).scrollTrigger as gsap.core.ScrollTrigger;
+        }).scrollTrigger as any;
         if (scrollTrigger) triggers.push(scrollTrigger);
       });
       return () => {
