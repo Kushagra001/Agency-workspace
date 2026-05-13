@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@gsap/react':
         specifier: ^2.1.1
-        version: 2.1.2(gsap@3.15.0)(react@19.2.5)
+        version: 2.1.2(gsap@3.15.0)(react@19.2.4)
       '@react-email/components':
         specifier: ^1.0.12
-        version: 1.0.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 1.0.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@react-email/render':
         specifier: ^2.0.8
-        version: 2.0.8(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 2.0.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@supabase/supabase-js':
         specifier: ^2.105.4
         version: 2.105.4
@@ -28,13 +28,13 @@ importers:
         version: 2.1.1
       framer-motion:
         specifier: ^11.11.0
-        version: 11.18.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 11.18.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       gsap:
         specifier: ^3.12.5
         version: 3.15.0
       lenis:
         specifier: ^1.1.14
-        version: 1.3.23(react@19.2.5)
+        version: 1.3.23(react@19.2.4)
       tailwind-merge:
         specifier: ^2.5.2
         version: 2.6.1
@@ -51,9 +51,18 @@ importers:
       autoprefixer:
         specifier: ^10.4.20
         version: 10.5.0(postcss@8.5.14)
+      next:
+        specifier: 16.2.6
+        version: 16.2.6(@babel/core@7.29.0)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       postcss:
         specifier: ^8.4.47
         version: 8.5.14
+      react:
+        specifier: 19.2.4
+        version: 19.2.4
+      react-dom:
+        specifier: 19.2.4
+        version: 19.2.4(react@19.2.4)
       tailwindcss:
         specifier: ^3.4.14
         version: 3.4.19(tsx@4.21.0)(yaml@2.8.4)
@@ -367,7 +376,7 @@ importers:
         version: 2.1.2(gsap@3.15.0)(react@19.2.5)
       framer-motion:
         specifier: ^11.11.0
-        version: 11.18.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 11.18.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.4(react@19.2.5))(react@19.2.5)
       gsap:
         specifier: ^3.12.5
         version: 3.15.0
@@ -376,7 +385,7 @@ importers:
         version: 1.3.23(react@19.2.5)
       next:
         specifier: ^15.0.0
-        version: 15.5.15(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 15.5.15(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.5))(react@19.2.5)
       react:
         specifier: ^18.0.0 || ^19.0.0
         version: 19.2.5
@@ -5814,11 +5823,6 @@ packages:
     peerDependencies:
       react: ^19.2.4
 
-  react-dom@19.2.5:
-    resolution: {integrity: sha512-J5bAZz+DXMMwW/wV3xzKke59Af6CHY7G4uYLN1OvBcKEsWOs4pQExj86BBKamxl/Ik5bx9whOrvBlSDfWzgSag==}
-    peerDependencies:
-      react: ^19.2.5
-
   react-fast-compare@3.2.2:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
 
@@ -8792,100 +8796,100 @@ snapshots:
 
   '@portabletext/types@4.0.2': {}
 
-  '@react-email/body@0.3.0(react@19.2.5)':
+  '@react-email/body@0.3.0(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/button@0.2.1(react@19.2.5)':
+  '@react-email/button@0.2.1(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/code-block@0.2.1(react@19.2.5)':
+  '@react-email/code-block@0.2.1(react@19.2.4)':
     dependencies:
       prismjs: 1.30.0
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/code-inline@0.0.6(react@19.2.5)':
+  '@react-email/code-inline@0.0.6(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/column@0.0.14(react@19.2.5)':
+  '@react-email/column@0.0.14(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/components@1.0.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@react-email/components@1.0.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
-      '@react-email/body': 0.3.0(react@19.2.5)
-      '@react-email/button': 0.2.1(react@19.2.5)
-      '@react-email/code-block': 0.2.1(react@19.2.5)
-      '@react-email/code-inline': 0.0.6(react@19.2.5)
-      '@react-email/column': 0.0.14(react@19.2.5)
-      '@react-email/container': 0.0.16(react@19.2.5)
-      '@react-email/font': 0.0.10(react@19.2.5)
-      '@react-email/head': 0.0.13(react@19.2.5)
-      '@react-email/heading': 0.0.16(react@19.2.5)
-      '@react-email/hr': 0.0.12(react@19.2.5)
-      '@react-email/html': 0.0.12(react@19.2.5)
-      '@react-email/img': 0.0.12(react@19.2.5)
-      '@react-email/link': 0.0.13(react@19.2.5)
-      '@react-email/markdown': 0.0.18(react@19.2.5)
-      '@react-email/preview': 0.0.14(react@19.2.5)
-      '@react-email/render': 2.0.6(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
-      '@react-email/row': 0.0.13(react@19.2.5)
-      '@react-email/section': 0.0.17(react@19.2.5)
-      '@react-email/tailwind': 2.0.7(@react-email/body@0.3.0(react@19.2.5))(@react-email/button@0.2.1(react@19.2.5))(@react-email/code-block@0.2.1(react@19.2.5))(@react-email/code-inline@0.0.6(react@19.2.5))(@react-email/container@0.0.16(react@19.2.5))(@react-email/heading@0.0.16(react@19.2.5))(@react-email/hr@0.0.12(react@19.2.5))(@react-email/img@0.0.12(react@19.2.5))(@react-email/link@0.0.13(react@19.2.5))(@react-email/preview@0.0.14(react@19.2.5))(@react-email/text@0.1.6(react@19.2.5))(react@19.2.5)
-      '@react-email/text': 0.1.6(react@19.2.5)
-      react: 19.2.5
+      '@react-email/body': 0.3.0(react@19.2.4)
+      '@react-email/button': 0.2.1(react@19.2.4)
+      '@react-email/code-block': 0.2.1(react@19.2.4)
+      '@react-email/code-inline': 0.0.6(react@19.2.4)
+      '@react-email/column': 0.0.14(react@19.2.4)
+      '@react-email/container': 0.0.16(react@19.2.4)
+      '@react-email/font': 0.0.10(react@19.2.4)
+      '@react-email/head': 0.0.13(react@19.2.4)
+      '@react-email/heading': 0.0.16(react@19.2.4)
+      '@react-email/hr': 0.0.12(react@19.2.4)
+      '@react-email/html': 0.0.12(react@19.2.4)
+      '@react-email/img': 0.0.12(react@19.2.4)
+      '@react-email/link': 0.0.13(react@19.2.4)
+      '@react-email/markdown': 0.0.18(react@19.2.4)
+      '@react-email/preview': 0.0.14(react@19.2.4)
+      '@react-email/render': 2.0.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@react-email/row': 0.0.13(react@19.2.4)
+      '@react-email/section': 0.0.17(react@19.2.4)
+      '@react-email/tailwind': 2.0.7(@react-email/body@0.3.0(react@19.2.4))(@react-email/button@0.2.1(react@19.2.4))(@react-email/code-block@0.2.1(react@19.2.4))(@react-email/code-inline@0.0.6(react@19.2.4))(@react-email/container@0.0.16(react@19.2.4))(@react-email/heading@0.0.16(react@19.2.4))(@react-email/hr@0.0.12(react@19.2.4))(@react-email/img@0.0.12(react@19.2.4))(@react-email/link@0.0.13(react@19.2.4))(@react-email/preview@0.0.14(react@19.2.4))(@react-email/text@0.1.6(react@19.2.4))(react@19.2.4)
+      '@react-email/text': 0.1.6(react@19.2.4)
+      react: 19.2.4
     transitivePeerDependencies:
       - react-dom
 
-  '@react-email/container@0.0.16(react@19.2.5)':
+  '@react-email/container@0.0.16(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/font@0.0.10(react@19.2.5)':
+  '@react-email/font@0.0.10(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/head@0.0.13(react@19.2.5)':
+  '@react-email/head@0.0.13(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/heading@0.0.16(react@19.2.5)':
+  '@react-email/heading@0.0.16(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/hr@0.0.12(react@19.2.5)':
+  '@react-email/hr@0.0.12(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/html@0.0.12(react@19.2.5)':
+  '@react-email/html@0.0.12(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/img@0.0.12(react@19.2.5)':
+  '@react-email/img@0.0.12(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/link@0.0.13(react@19.2.5)':
+  '@react-email/link@0.0.13(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/markdown@0.0.18(react@19.2.5)':
+  '@react-email/markdown@0.0.18(react@19.2.4)':
     dependencies:
       marked: 15.0.12
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/preview@0.0.14(react@19.2.5)':
+  '@react-email/preview@0.0.14(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/render@2.0.6(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@react-email/render@2.0.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       html-to-text: 9.0.5
       prettier: 3.8.3
-      react: 19.2.5
-      react-dom: 19.2.5(react@19.2.5)
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
 
   '@react-email/render@2.0.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
@@ -8893,43 +8897,35 @@ snapshots:
       prettier: 3.8.3
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
-    optional: true
 
-  '@react-email/render@2.0.8(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@react-email/row@0.0.13(react@19.2.4)':
     dependencies:
-      html-to-text: 9.0.5
-      prettier: 3.8.3
-      react: 19.2.5
-      react-dom: 19.2.5(react@19.2.5)
+      react: 19.2.4
 
-  '@react-email/row@0.0.13(react@19.2.5)':
+  '@react-email/section@0.0.17(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
-  '@react-email/section@0.0.17(react@19.2.5)':
+  '@react-email/tailwind@2.0.7(@react-email/body@0.3.0(react@19.2.4))(@react-email/button@0.2.1(react@19.2.4))(@react-email/code-block@0.2.1(react@19.2.4))(@react-email/code-inline@0.0.6(react@19.2.4))(@react-email/container@0.0.16(react@19.2.4))(@react-email/heading@0.0.16(react@19.2.4))(@react-email/hr@0.0.12(react@19.2.4))(@react-email/img@0.0.12(react@19.2.4))(@react-email/link@0.0.13(react@19.2.4))(@react-email/preview@0.0.14(react@19.2.4))(@react-email/text@0.1.6(react@19.2.4))(react@19.2.4)':
     dependencies:
-      react: 19.2.5
-
-  '@react-email/tailwind@2.0.7(@react-email/body@0.3.0(react@19.2.5))(@react-email/button@0.2.1(react@19.2.5))(@react-email/code-block@0.2.1(react@19.2.5))(@react-email/code-inline@0.0.6(react@19.2.5))(@react-email/container@0.0.16(react@19.2.5))(@react-email/heading@0.0.16(react@19.2.5))(@react-email/hr@0.0.12(react@19.2.5))(@react-email/img@0.0.12(react@19.2.5))(@react-email/link@0.0.13(react@19.2.5))(@react-email/preview@0.0.14(react@19.2.5))(@react-email/text@0.1.6(react@19.2.5))(react@19.2.5)':
-    dependencies:
-      '@react-email/text': 0.1.6(react@19.2.5)
-      react: 19.2.5
+      '@react-email/text': 0.1.6(react@19.2.4)
+      react: 19.2.4
       tailwindcss: 4.2.4
     optionalDependencies:
-      '@react-email/body': 0.3.0(react@19.2.5)
-      '@react-email/button': 0.2.1(react@19.2.5)
-      '@react-email/code-block': 0.2.1(react@19.2.5)
-      '@react-email/code-inline': 0.0.6(react@19.2.5)
-      '@react-email/container': 0.0.16(react@19.2.5)
-      '@react-email/heading': 0.0.16(react@19.2.5)
-      '@react-email/hr': 0.0.12(react@19.2.5)
-      '@react-email/img': 0.0.12(react@19.2.5)
-      '@react-email/link': 0.0.13(react@19.2.5)
-      '@react-email/preview': 0.0.14(react@19.2.5)
+      '@react-email/body': 0.3.0(react@19.2.4)
+      '@react-email/button': 0.2.1(react@19.2.4)
+      '@react-email/code-block': 0.2.1(react@19.2.4)
+      '@react-email/code-inline': 0.0.6(react@19.2.4)
+      '@react-email/container': 0.0.16(react@19.2.4)
+      '@react-email/heading': 0.0.16(react@19.2.4)
+      '@react-email/hr': 0.0.12(react@19.2.4)
+      '@react-email/img': 0.0.12(react@19.2.4)
+      '@react-email/link': 0.0.13(react@19.2.4)
+      '@react-email/preview': 0.0.14(react@19.2.4)
 
-  '@react-email/text@0.1.6(react@19.2.5)':
+  '@react-email/text@0.1.6(react@19.2.4)':
     dependencies:
-      react: 19.2.5
+      react: 19.2.4
 
   '@rexxars/jiti@2.6.2': {}
 
@@ -10814,8 +10810,8 @@ snapshots:
       '@next/eslint-plugin-next': 16.2.6
       eslint: 9.39.4(jiti@2.7.0)
       eslint-import-resolver-node: 0.3.10
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@9.39.4(jiti@2.7.0))
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.4(jiti@2.7.0))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@9.39.4(jiti@2.7.0))
       eslint-plugin-react: 7.37.5(eslint@9.39.4(jiti@2.7.0))
       eslint-plugin-react-hooks: 7.1.1(eslint@9.39.4(jiti@2.7.0))
@@ -10857,21 +10853,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0)):
-    dependencies:
-      '@nolyfill/is-core-module': 1.0.39
-      debug: 4.4.3(supports-color@8.1.1)
-      eslint: 9.39.4(jiti@2.7.0)
-      get-tsconfig: 4.14.0
-      is-bun-module: 2.0.0
-      stable-hash: 0.0.5
-      tinyglobby: 0.2.16
-      unrs-resolver: 1.11.1
-    optionalDependencies:
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))
-    transitivePeerDependencies:
-      - supports-color
-
   eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0)(eslint@9.39.4(jiti@2.7.0)):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
@@ -10883,32 +10864,22 @@ snapshots:
       tinyglobby: 0.2.16
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.4(jiti@2.7.0))
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.4(jiti@2.7.0))
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0)):
+  eslint-module-utils@2.12.1(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.4(jiti@2.7.0)):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)
       eslint: 9.39.4(jiti@2.7.0)
       eslint-import-resolver-node: 0.3.10
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))
-    transitivePeerDependencies:
-      - supports-color
-
-  eslint-module-utils@2.12.1(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.4(jiti@2.7.0)):
-    dependencies:
-      debug: 3.2.7
-    optionalDependencies:
-      eslint: 9.39.4(jiti@2.7.0)
-      eslint-import-resolver-node: 0.3.10
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@9.39.4(jiti@2.7.0))
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0)):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.4(jiti@2.7.0)):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
@@ -10919,7 +10890,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.39.4(jiti@2.7.0)
       eslint-import-resolver-node: 0.3.10
-      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0)))(eslint@9.39.4(jiti@2.7.0))
+      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.4(jiti@2.7.0))
       hasown: 2.0.3
       is-core-module: 2.16.2
       is-glob: 4.0.3
@@ -10948,7 +10919,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.39.4(jiti@2.7.0)
       eslint-import-resolver-node: 0.3.10
-      eslint-module-utils: 2.12.1(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.4(jiti@2.7.0))
+      eslint-module-utils: 2.12.1(@typescript-eslint/parser@8.59.2(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3))(eslint-import-resolver-node@0.3.10)(eslint-import-resolver-typescript@3.10.1)(eslint@9.39.4(jiti@2.7.0))
       hasown: 2.0.3
       is-core-module: 2.16.2
       is-glob: 4.0.3
@@ -11245,7 +11216,7 @@ snapshots:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  framer-motion@11.18.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
+  framer-motion@11.18.2(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.4(react@19.2.5))(react@19.2.5):
     dependencies:
       motion-dom: 11.18.1
       motion-utils: 11.18.1
@@ -11253,7 +11224,7 @@ snapshots:
     optionalDependencies:
       '@emotion/is-prop-valid': 1.4.0
       react: 19.2.5
-      react-dom: 19.2.5(react@19.2.5)
+      react-dom: 19.2.4(react@19.2.5)
 
   framer-motion@12.38.0(@emotion/is-prop-valid@1.4.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
     dependencies:
@@ -12201,14 +12172,14 @@ snapshots:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  next@15.5.15(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
+  next@15.5.15(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.4(react@19.2.5))(react@19.2.5):
     dependencies:
       '@next/env': 15.5.15
       '@swc/helpers': 0.5.15
       caniuse-lite: 1.0.30001792
       postcss: 8.4.31
       react: 19.2.5
-      react-dom: 19.2.5(react@19.2.5)
+      react-dom: 19.2.4(react@19.2.5)
       styled-jsx: 5.1.6(react@19.2.5)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.5.15
@@ -12675,7 +12646,7 @@ snapshots:
       react: 19.2.4
       scheduler: 0.27.0
 
-  react-dom@19.2.5(react@19.2.5):
+  react-dom@19.2.4(react@19.2.5):
     dependencies:
       react: 19.2.5
       scheduler: 0.27.0
