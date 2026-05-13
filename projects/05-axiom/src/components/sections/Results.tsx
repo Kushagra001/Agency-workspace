@@ -76,7 +76,7 @@ export default function Results() {
   useEffect(() => {
     if (!containerRef.current) return;
 
-    const triggers: gsap.core.ScrollTrigger[] = [];
+    const triggers: any[] = [];
 
     // Animate cards on scroll
     cardsRef.current.forEach((card, i) => {
@@ -91,7 +91,7 @@ export default function Results() {
           once: true,
         },
         delay: i * 0.15,
-      }).scrollTrigger as gsap.core.ScrollTrigger;
+      }).scrollTrigger as any;
       if (scrollTrigger) triggers.push(scrollTrigger);
     });
 
@@ -124,7 +124,7 @@ export default function Results() {
             counter.textContent = `${Math.round(currentValue)}%`;
           }
         },
-      }).scrollTrigger as gsap.core.ScrollTrigger;
+      }).scrollTrigger as any;
       if (scrollTrigger) triggers.push(scrollTrigger);
     });
 
