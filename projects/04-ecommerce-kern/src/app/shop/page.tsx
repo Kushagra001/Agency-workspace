@@ -11,7 +11,9 @@ import Link from "next/link";
 const CATEGORIES = ["All", "Overshirts", "Shirts", "Trousers", "Outerwear"] as const;
 type Category = (typeof CATEGORIES)[number];
 
-export default function ShopPage() {
+import { Suspense } from "react";
+
+function ShopContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
@@ -118,5 +120,13 @@ export default function ShopPage() {
 
       <Footer />
     </main>
+  );
+}
+
+export default function ShopPage() {
+  return (
+    <Suspense fallback={<div className="bg-kern-black min-h-screen" />}>
+      <ShopContent />
+    </Suspense>
   );
 }
