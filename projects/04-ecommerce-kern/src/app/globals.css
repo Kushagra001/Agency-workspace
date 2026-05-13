@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* ── Kern Design Tokens ── */
+@theme inline {
+  /* Colors */
+  --color-kern-black:        #0f0d0a;
+  --color-kern-black-2:      #1a1612;
+  --color-kern-black-3:      #242018;
+  --color-kern-tobacco:      #3d2b1f;
+  --color-kern-tobacco-light:#6b4c38;
+  --color-kern-cream:        #f5f0e8;
+  --color-kern-cream-hover:  #e8e3db;
+  --color-kern-cream-dim:    #c4bdb3;
+  --color-kern-cream-faint:  #858079;
+  --color-kern-border:       rgba(245,240,232,0.08);
+  --color-kern-border-strong:rgba(245,240,232,0.16);
+
+  /* Typography */
+  --font-display: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  --font-sans:    var(--font-inter), 'Inter', system-ui, sans-serif;
+}
+
+/* ── Base styles ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto; /* Lenis handles smooth scrolling */
+}
+
+body {
+  background: #0f0d0a;
+  color: #f5f0e8;
+  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ── Selection ── */
+::selection {
+  background: #3d2b1f;
+  color: #f5f0e8;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0d0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #3d2b1f;
+  border-radius: 2px;
+}
+
+/* ── Font utilities ── */
+.font-display {
+  font-family: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+}
+
+/* ── Utility classes ── */
+.kern-label {
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #858079;
+}
+
+/* ── Remove default link underline ── */
+a {
+  text-decoration: none;
+}
